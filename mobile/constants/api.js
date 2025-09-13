@@ -1,0 +1,1 @@
+export const API_URL = 'https://spirited-away-money-app.onrender.com/api'

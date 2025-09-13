@@ -1,8 +1,8 @@
 // react custom hook file
 import { useState, useCallback } from 'react';
 import { Alert } from 'react-native';
+import { API_URL } from '../constants/api';
 
-const API_URL = 'https://spirited-away-money-app.onrender.com/api'
 
 export const useTransactions = (userId) => {
   const [transactions, setTransactions] = useState([]);
