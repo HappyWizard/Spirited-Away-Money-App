@@ -2,7 +2,7 @@
 import { useState, useCallback } from 'react';
 import { Alert } from 'react-native';
 
-const API_URL = 'https://localhost:5001/api'
+const API_URL = 'https://spirited-away-money-app.onrender.com/api'
 
 export const useTransactions = (userId) => {
   const [transactions, setTransactions] = useState([]);
